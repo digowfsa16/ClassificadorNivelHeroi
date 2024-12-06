@@ -21,7 +21,6 @@ let Niveis= [[0,1000,"Ferro"],
 
 for (let i = 0; i < Niveis.length; i++) {
     if (heroi[1] >= Niveis[i][0] && heroi[1] <= Niveis[i][1]) {
-        console.log(Niveis[i][0])
         nivel = Niveis[i][2]
     }
 }
