@@ -26,4 +26,5 @@ for (let i = 0; i < Niveis.length; i++) {
     }
 }
 
-console.log(nivel)
+let mensagem = `O Herói de nome ${heroi[0]} está no nível ${nivel}`
+console.log(mensagem)
