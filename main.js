@@ -10,7 +10,7 @@ let nivel = 'Radiante'
 let Niveis= [[0,1000,"Ferro"],
 [1001,2000,"Bronze"],
 [2001,5000,"Prata"],
-[5001,700,"Ouro"],
+[5001,7000,"Ouro"],
 [7001,8000,"Platina"],
 [8001,9000,"Ascendente"],
 [9001,10000,"Imortal"] ]
@@ -22,6 +22,7 @@ let Niveis= [[0,1000,"Ferro"],
 for (let i = 0; i < Niveis.length; i++) {
     if (heroi[1] >= Niveis[i][0] && heroi[1] <= Niveis[i][1]) {
         nivel = Niveis[i][2]
+        break
     }
 }
 
